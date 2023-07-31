@@ -16,7 +16,7 @@ public class App {
         
         output("-------------------------");
 
-        Tomcat cat2 = new Tomcat("Tom", "grey", 35);
+        Tomcat cat2 = new Tomcat("Analonzo", "grey", 35);
 
         output(cat2.getStringAttributes("#name"));
         output(cat2.getStringAttributes("#color"));
@@ -28,6 +28,5 @@ public class App {
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
-
 }
 
